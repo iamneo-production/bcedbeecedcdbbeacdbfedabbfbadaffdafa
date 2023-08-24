@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: runner.Testcase1
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 12.524 s <<< FAILURE! - in runner.Testcase1
+beforeMethod(runner.Testcase1)  Time elapsed: 12.208 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'bcedbeecedcdbbeacdbfedabbfbadaffdafa-0', ip: '10.80.4.19'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}]}]
+Capabilities {browserName: chrome}
+	at runner.Testcase1.beforeMethod(Testcase1.java:262)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /34.85.201.58:4445
+	at runner.Testcase1.beforeMethod(Testcase1.java:262)
+Caused by: java.net.ConnectException: connection timed out: /34.85.201.58:4445
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /34.85.201.58:4445
+

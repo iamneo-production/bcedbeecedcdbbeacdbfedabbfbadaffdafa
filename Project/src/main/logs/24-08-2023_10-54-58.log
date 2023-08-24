@@ -1,0 +1,10 @@
+Aug 24, 2023 10:55:03 AM runner.Base openBrowser
+INFO: Browser Loaded the URL
+Aug 24, 2023 10:55:04 AM runner.Testcase1 addLowCostGiftCard
+INFO: Browser launched
+Aug 24, 2023 10:55:05 AM runner.Testcase1 addLowCostGiftCard
+INFO: List sorted
+Aug 24, 2023 10:55:06 AM runner.Testcase1 addLowCostGiftCard
+INFO: ******************
+Aug 24, 2023 10:55:08 AM runner.Testcase1 afterMethod
+INFO: Browser closed
