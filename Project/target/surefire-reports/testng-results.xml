@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-25T06:14:24 UTC" name="Surefire suite" finished-at="2023-08-25T06:14:24 UTC" duration-ms="642">
+  <suite started-at="2023-08-25T07:10:00 UTC" name="Surefire suite" finished-at="2023-08-25T07:10:01 UTC" duration-ms="775">
     <groups>
     </groups>
-    <test started-at="2023-08-25T06:14:24 UTC" name="Surefire test" finished-at="2023-08-25T06:14:24 UTC" duration-ms="642">
+    <test started-at="2023-08-25T07:10:00 UTC" name="Surefire test" finished-at="2023-08-25T07:10:01 UTC" duration-ms="775">
       <class name="runner.Testcase1">
-        <test-method signature="addLowCostGiftCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:runner.Testcase1@6d4d66d2]" started-at="2023-08-25T06:14:24 UTC" name="addLowCostGiftCard" data-provider="testData" finished-at="2023-08-25T06:14:24 UTC" duration-ms="0" status="FAIL">
+        <test-method signature="addLowCostGiftCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:runner.Testcase1@6d4d66d2]" started-at="2023-08-25T07:10:01 UTC" name="addLowCostGiftCard" data-provider="testData" finished-at="2023-08-25T07:10:01 UTC" duration-ms="0" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -61,7 +61,7 @@ at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedExce
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLowCostGiftCard -->
-        <test-method signature="TestCheckButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:runner.Testcase1@6d4d66d2]" started-at="2023-08-25T06:14:24 UTC" name="TestCheckButton" data-provider="testData" finished-at="2023-08-25T06:14:24 UTC" duration-ms="0" status="FAIL">
+        <test-method signature="TestCheckButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:runner.Testcase1@6d4d66d2]" started-at="2023-08-25T07:10:01 UTC" name="TestCheckButton" data-provider="testData" finished-at="2023-08-25T07:10:01 UTC" duration-ms="0" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -115,7 +115,7 @@ at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedExce
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCheckButton -->
-        <test-method signature="TestCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:runner.Testcase1@6d4d66d2]" started-at="2023-08-25T06:14:24 UTC" name="TestCheckout" data-provider="testData" finished-at="2023-08-25T06:14:24 UTC" duration-ms="0" status="FAIL">
+        <test-method signature="TestCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:runner.Testcase1@6d4d66d2]" started-at="2023-08-25T07:10:01 UTC" name="TestCheckout" data-provider="testData" finished-at="2023-08-25T07:10:01 UTC" duration-ms="0" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -169,7 +169,7 @@ at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedExce
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCheckout -->
-        <test-method signature="Booksearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:runner.Testcase1@6d4d66d2]" started-at="2023-08-25T06:14:24 UTC" name="Booksearch" data-provider="testData" finished-at="2023-08-25T06:14:24 UTC" duration-ms="0" status="FAIL">
+        <test-method signature="Booksearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:runner.Testcase1@6d4d66d2]" started-at="2023-08-25T07:10:01 UTC" name="Booksearch" data-provider="testData" finished-at="2023-08-25T07:10:01 UTC" duration-ms="0" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
