@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: runner.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.505 s - in runner.Testcase1
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.305 s <<< FAILURE! - in runner.Testcase1
+addLowCostGiftCard(runner.Testcase1)  Time elapsed: 1.096 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NullPointerException
+	at runner.Testcase1.readTestData(Testcase1.java:74)
+
+TestCheckButton(runner.Testcase1)  Time elapsed: 1.118 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NullPointerException
+	at runner.Testcase1.readTestData(Testcase1.java:74)
+
+TestCheckout(runner.Testcase1)  Time elapsed: 1.135 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NullPointerException
+	at runner.Testcase1.readTestData(Testcase1.java:74)
+
+Booksearch(runner.Testcase1)  Time elapsed: 1.188 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NullPointerException
+	at runner.Testcase1.readTestData(Testcase1.java:74)
+
