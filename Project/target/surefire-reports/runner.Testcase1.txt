@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.172 s - in runner.Testcase1
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.505 s - in runner.Testcase1
